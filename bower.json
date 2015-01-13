@@ -5,7 +5,7 @@
   "authors": [
     "Karl Marques <marques.karl@live.fr>"
   ],
-  "main": ["js/image-crop.js"],
+  "main": ["js/image-crop.js", "css/image-crop.css", "css/outline.gif"],
   "keywords": [
     "list",
     "infinity",
