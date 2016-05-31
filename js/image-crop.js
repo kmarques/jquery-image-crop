@@ -791,7 +791,7 @@
         options.selectionPosition[1] = selectionOrigin[1];
 
       // Trigger the 'onChange' event when the selection is changed
-      options.onChange(getCropData());
+      options.onChange(getCropData(), $image);
 
       // Update only the needed elements of the plug-in interface
       // by specifying the sender of the current call
@@ -829,7 +829,7 @@
         options.selectionPosition[1] = 0;
 
       // Trigger the 'onChange' event when the selection is changed
-      options.onChange(getCropData());
+      options.onChange(getCropData(), $image);
 
       // Update only the needed elements of the plug-in interface
       // by specifying the sender of the current call
@@ -864,7 +864,7 @@
       options.selectionHeight > options.minSelect[1]);
 
       // Trigger the 'onSelect' event when the selection is made
-      options.onSelect(getCropData());
+      options.onSelect(getCropData(), $image);
 
       // If the selection doesn't exist
       if (!selectionExists) {
